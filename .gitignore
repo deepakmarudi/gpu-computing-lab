@@ -1,0 +1,45 @@
+# Compiled binaries and build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.so
+*.a
+*.ptx
+*.cubin
+*.fatbin
+
+# Build directories
+build/
+cmake-build-*/
+
+# Python / PyCUDA
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Profiling and debugging output
+*.nsys-rep
+*.qdrep
+*.nvprof
+core
+core.*
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
